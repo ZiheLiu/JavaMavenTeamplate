@@ -1,0 +1,18 @@
+language: java
+jdk:
+  - oraclejdk8
+cache:
+  directories:
+    - .autoconf
+    - $HOME/.m2
+before_install:
+  - "echo skipped"
+install:
+  - mvn install
+script:
+  - mvn clean
+  - mvn package
+notifications:
+  email:
+    recipients:
+      - ziheliu1024@gmail.com
