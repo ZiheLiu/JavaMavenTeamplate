@@ -1,5 +1,7 @@
 # JavaMavenTemplate
 
+[![Build Status](https://travis-ci.org/ZiheLiu/JavaMavenTeamplate.svg?branch=master)](https://travis-ci.org/ZiheLiu/JavaMavenTeamplate)
+
 A template project based on java and maven, so as to start a new project quickly.
 
 
